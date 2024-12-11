@@ -1,0 +1,29 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos de build (Webpack, Parcel, Babel)
+dist/
+build/
+
+# Arquivos de cache e temporários
+.cache/
+.webpack/
+.parcel-cache/
+
+# Arquivos de log e source maps
+*.log
+*.map
+
+# Arquivos de configuração de ambiente (como variáveis de ambiente sensíveis)
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração da IDE
+.vscode/
+.idea/
+
+# Arquivos temporários do sistema
+Thumbs.db
+ehthumbs.db
+.DS_Store
